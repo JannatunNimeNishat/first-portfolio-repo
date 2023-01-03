@@ -1,0 +1,101 @@
+*{
+    margin:0;  
+    /* background-image: url("https://miro.medium.com/max/1400/1*ZhuqSg8Jmz4p8H6X5U1uzQ.png"); */
+}
+
+.top-section{
+    text-align: center;
+    font-size: 35px;
+    font-family:sans-serif;
+}
+.top-section> a{
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+}
+.flex-container{
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.400);
+    margin: 120px 50px 150px 50px ;
+    border: 2.5px solid green;
+}
+.img-container{
+    background-image: url(../images/nishat.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 400px;
+    width: 550px;
+    margin-right: 30px;
+    
+}
+
+.about-me{
+    padding:50px 25px 50px 20px ;
+    font-family: sans-serif;
+
+}
+.about-me > h4{
+    font-size: 2em;
+    margin-bottom: 10px;
+    
+}
+
+.about-me>p{
+    line-height: 22px;
+}
+
+#my-name{
+    text-decoration: underline;
+    font-weight: 700;
+    color: green;
+}
+
+.flex-container2{
+    display: flex;
+    background-color:rgba(128, 128, 128, 0.400) ;
+    margin: 120px 50px 150px 50px ;
+    border: 2.5px solid green;
+}
+
+.about-carrier{
+    padding:50px 25px 50px 20px ;
+    font-family: sans-serif;
+}
+
+.about-carrier >h4{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.about-carrier >ol p{
+    line-height: 25px;
+}
+
+#college{
+    text-decoration: underline;
+    font-weight: 500;
+    color: green;
+}
+
+.image-2{
+    background-image: url(../images/teacher.jpg);
+    height: 400px;
+    width: 550px;
+    background-size: cover;
+}
+
+.flex-container3{
+    display: flex;
+    background-color:rgba(128, 128, 128, 0.400) ;
+    margin: 120px 50px 150px 50px ;
+    border: 2.5px solid green;
+}
+.image-3{
+    background-image: url(../images/skills.jpg);
+    height: 400px;
+    width: 550px;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+
