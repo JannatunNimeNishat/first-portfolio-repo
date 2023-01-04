@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+header{
+    text-align: center;
+     margin-bottom: 150px;
+}
+nav ul{
+    display: flex;  
+    
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;   
+}
+
+nav ul li:hover{
+    background-color: green;
+}
+
+#about{
+    display: flex;
+}
+
+img.img{
+    height: 300px;
+    
+}
+
+section,article{
+    border:2px solid green;
+    margin-right: 10px;
+}
+
